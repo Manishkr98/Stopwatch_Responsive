@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@300;400&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="watch_box">
+            <div class="name">
+                <p>Stopwatch using Javascript</p>
+            </div>
+            <div class="screen_box">
+                <div class="time_box">
+                    <h1 id="Stopwatch">00:00:00</h1>
+                </div>
+                <div class="btn_box">
+                    <div class="btn btn1" onclick="Pausewatch()">pause</div>
+                    <div class="btn btn2" onclick="Startwatch()">Start</div>
+                    <div class="btn btn3" onclick="Resetwatch()">Reset</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
